@@ -5,6 +5,8 @@ import static org.junit.Assert.*;
 public class regularTest {
 
     @Test
-    public void isIP() {
+    public void isIP()
+    {
+
     }
 }
