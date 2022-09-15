@@ -1,11 +1,9 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
-public class regularTest
+public class IDTest
 {
-    public static regular IP = new regular();;
+    public static ID IP = new ID();;
     @Test
     public void isIP1()
     {

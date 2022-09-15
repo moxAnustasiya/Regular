@@ -1,8 +1,8 @@
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-public class regular
+public class ID
 {
-    private static String regexIP = "^(\\d|[1-9]\\d|1\\d\\d|2[0-4]\\d|25[0-5])\\." + "((\\d|[1-9]\\d|1\\d\\d|2[0-4]\\d|25[0-5])\\.){2}"  + "(\\d|[1-9]\\d|1\\d\\d|2[0-4]\\d|25[0-5])$";
+    private static String regexIP = "^(\\d|[1-9]\\d|1\\d\\d|2[0-4]\\d|25[0-5])\\.((\\d|[1-9]\\d|1\\d\\d|2[0-4]\\d|25[0-5])\\.){2}(\\d|[1-9]\\d|1\\d\\d|2[0-4]\\d|25[0-5])$";
     public static boolean IsIP(String IP)
     {
         Pattern pattern = Pattern.compile(regexIP);
