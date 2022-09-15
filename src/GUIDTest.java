@@ -13,12 +13,12 @@ public class GUIDTest {
     @Test
     public void isGUID2()
     {
-        Assert.assertEquals(true, GUID.IsGUID("3297F0F2-35D3-4231-919D-1CFCF4035975"));
+        Assert.assertEquals(true, GUID.IsGUID("{3297F0F2-35D3-4231-919D-1CFCF4035975}"));
     }
     @Test
     public void isGUID3()
     {
-        Assert.assertEquals(true, GUID.IsGUID("69AA3BA5-D51E-465E-8447-ECAA1939739A"));
+        Assert.assertEquals(true, GUID.IsGUID("{69aa3ba5-d51E-465E-8447-ECAA1939739A}"));
     }
     @Test
     public void isGUID4()
@@ -38,12 +38,12 @@ public class GUIDTest {
     @Test
     public void isGUID7()
     {
-        Assert.assertEquals(false, GUID.IsGUID("e02fd0e400fd090Aca300d00a0038ba0"));
+        Assert.assertEquals(false, GUID.IsGUID("{e02fd0e400fd090Aca300d00a0038ba0{"));
     }
     @Test
     public void isGUID8()
     {
-        Assert.assertEquals(false, GUID.IsGUID("h4Ad02B7-9D55-483D-k081-CC4e3851f851"));
+        Assert.assertEquals(false, GUID.IsGUID("(h4Ad02B7-9D55-483D-k081-CC4e3851f851)"));
     }
     @Test
     public void isGUID9()
